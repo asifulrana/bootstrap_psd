@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+   font-family: 'PT Sans', sans-serif; 
+   color: #010101;
+}
+
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 25px 0;
+}
+button:focus{
+	outline: none;
+}
+
+.menu ul li a{
+	font-size: 22px;
+	padding: 0 30px !important;
+	transition: .3s;
+}
+
+
+.menu ul li:last-childd a{
+		padding-right: 0 !important;
+}
+.menu ul li a:hover{
+		color:white !important;
+}
+
+/*header end/*
+
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+
+}
+.c_indi{
+	margin-bottom: -5rem;
+
+}
+.c_indi li{
+	weight: 10px ;
+	height: 15px ;
+	width: 17px;
+	border-radius: 50%;
+}
+.single_content{
+	padding-top: 70px;
+}
+
+.single_content h1{
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+	word-spacing: 7px;
+}
+.single_content  h2{
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 20px;
+	font-weight: 400;
+	color: #313841;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	padding: 10px 0;
+}
+.single_content p{
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 16px;
+	font-weight: 400;
+	color: #555555;
+	word-spacing: 5px;
+	margin-bottom: 20px;
+}
+
+.single_content li{
+	padding:10px 20px 10px 0;
+	
+}
+.single_content i{
+	font-size: 42px;
+
+}
+.single_content ul li i:hover{
+	color: white;
+	font-size: 30px;
+}
+
+.slider_image{
+	text-align: center;
+}
+/*slider end*/
+
+/*feature start*/
+.c_text{}
+.c_h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+}
+.c_p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+/*feature start*/
+.f_r1{
+	margin: 120px 0 0 0;
+}
+.s_icon i{
+	font-size: 42px;
+}
+.s_icon i:hovar{
+	color: red !important;
+}
+.s_text{}
+.s_text h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+}
+.s_text p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+.f_r2{
+	padding: 90px 0 !important;
+}
+/*feature end*/
+/*contact start*/
+.contact{
+	background-color: #010101;
+}
+.f_text{
+	padding: 90px 0 45px 0;
+	}
+.f_h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fcdb00;
+}
+.f_p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #555555;
+
+}
+
+
+.f_section{}
+.f_email{
+		font-family: 'PT Sans', sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		color: #898989;
+	    width: 100%;
+		height: 50px;
+}
+.f_email:focus{
+		outline: 0;
+		box-shadow: none;
+}
+
+.f_btn{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: #fcdb00;
+	width: 100%;
+	height: 50px;
+}
+.f_btn:hover{
+		background-color: white;
+}
+.f_btn:focus{
+		outline: 0;
+		box-shadow: none;
+}
+/*contact end*/
+/*footer start*/
+.c_fot{
+	background-color: #010101;
+	padding: 130px 0;
+}
+.c_fot address{
+	color: white;
+}
+.c_fot a{
+	color: white;
+ }
+ .c_fot p{
+ 	margin-bottom: 0;
+ }
+/*footer end*/

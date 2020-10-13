@@ -1,0 +1,7 @@
+font-family: 'PT Sans', sans-serif; 
+   color: #010101;
+
+
+   font-family: 'PT Sans', sans-serif;
+   .s_icon{
+  margin-left: 16px;
